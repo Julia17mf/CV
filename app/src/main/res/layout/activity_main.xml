@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="345dp"
+        android:src="@drawable/bg"/>
+
+    <View
+        android:id="@+id/aksen"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="#9da5ae" />
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:src="@drawable/photo"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Julia Mutiara Farida"
+        android:textSize="15pt"
+        android:layout_marginTop="70dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#9da5ae"
+        android:layout_toRightOf="@id/aksen"/>
+
+    <View
+        android:id="@+id/border1"
+        android:layout_width="150dp"
+        android:layout_height="3dp"
+        android:background="#4d7dff"
+        android:layout_toRightOf="@id/aksen"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mahasiswa"
+        android:letterSpacing="0.5"
+        android:textSize="7pt"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#9da5ae"
+        android:layout_toRightOf="@id/aksen"
+        android:layout_below="@id/border1"/>
+
+    <TextView
+        android:id="@+id/ttl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TTL"
+        android:textSize="8pt"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#4d7dff"
+        android:layout_below="@id/photo"/>
+
+    <TextView
+        android:id="@+id/ttl_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yogyakarta,\n17 Juli 2000"
+        android:textSize="5pt"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/ttl"
+        android:lineSpacingExtra="3pt"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALAMAT"
+        android:textSize="8pt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#4d7dff"
+        android:layout_below="@id/ttl_detail"/>
+
+    <TextView
+        android:id="@+id/address_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minggiran MJ2/1360\nRT 63 RW 17 Yogyakarta\n55141"
+        android:textSize="5pt"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/address"
+        android:lineSpacingExtra="3pt"/>
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KONTAK"
+        android:textSize="8pt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#4d7dff"
+        android:layout_below="@id/address_detail"/>
+
+    <TextView
+        android:id="@+id/contact_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telepon\n\t\t\t085700044804\nE-mail\n\t\t\tjulia17mf@gmail.com"
+        android:textSize="5pt"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/contact"
+        android:lineSpacingExtra="3pt"/>
+
+    <TextView
+        android:id="@+id/skill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KEMAMPUAN"
+        android:textSize="8pt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#4d7dff"
+        android:layout_below="@id/contact_detail"/>
+
+    <TextView
+        android:id="@+id/skill_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HTML\nPHP\nCSS\nJAVA\nC++"
+        android:textSize="5pt"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/skill"
+        android:lineSpacingExtra="3pt"/>
+
+    <View
+        android:id="@+id/html"
+        android:layout_width="80dp"
+        android:layout_height="7dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@id/skill_detail"
+        android:layout_below="@id/skill"
+        android:background="@color/white"/>
+
+    <View
+        android:id="@+id/php"
+        android:layout_width="80dp"
+        android:layout_height="7dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@id/skill_detail"
+        android:layout_below="@id/html"
+        android:background="@color/white"/>
+
+    <View
+        android:id="@+id/css"
+        android:layout_width="75dp"
+        android:layout_height="7dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@id/skill_detail"
+        android:layout_below="@id/php"
+        android:background="@color/white"/>
+
+    <View
+        android:id="@+id/java"
+        android:layout_width="70dp"
+        android:layout_height="7dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@id/skill_detail"
+        android:layout_below="@id/css"
+        android:background="@color/white"/>
+
+    <View
+        android:id="@+id/cpp"
+        android:layout_width="80dp"
+        android:layout_height="7dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@id/skill_detail"
+        android:layout_below="@id/java"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PENDIDIKAN"
+        android:textSize="8pt"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="30dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#9da5ae"
+        android:layout_below="@id/job"
+        android:layout_toRightOf="@id/aksen"/>
+
+    <TextView
+        android:id="@+id/education_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2006\n2012\n2015\n2018"
+        android:textSize="5pt"
+        android:textStyle="bold"
+        android:lineSpacingExtra="10pt"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#4d7dff"
+        android:layout_below="@id/education"
+        android:layout_toRightOf="@id/aksen"/>
+
+    <View
+        android:id="@+id/border2"
+        android:layout_width="2dp"
+        android:layout_height="100dp"
+        android:background="#9da5ae"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/education"
+        android:layout_toRightOf="@id/education_year"/>
+
+    <TextView
+        android:id="@+id/education_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SDN Suryodiningratan 3\nSMPN 9 Yogyakarta\nSMAN 7 Yogyakarta\nUPN 'Veteran' Yogyakarta"
+        android:textSize="5pt"
+        android:textStyle="bold"
+        android:lineSpacingExtra="10pt"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#4d7dff"
+        android:layout_below="@id/education"
+        android:layout_toRightOf="@id/border2"/>
+
+    <TextView
+        android:id="@+id/experience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PENGALAMAN"
+        android:textSize="8pt"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#9da5ae"
+        android:layout_below="@id/education_year"
+        android:layout_toRightOf="@id/aksen"/>
+
+    <TextView
+        android:id="@+id/experience_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2018-2019\n\t\t\tStaff Web Development ITC\n2019-sekarang\n\t\t\tAsisten Laboratorium"
+        android:textSize="5pt"
+        android:textStyle="bold"
+        android:lineSpacingExtra="5pt"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#4d7dff"
+        android:layout_below="@id/experience"
+        android:layout_toRightOf="@id/aksen"/>
+
+
+    <TextView
+        android:id="@+id/experience_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SDN Suryodiningratan 3\nSMPN 9 Yogyakarta\nSMAN 7 Yogyakarta\nUPN 'Veteran' Yogyakarta"
+        android:textSize="5pt"
+        android:textStyle="bold"
+        android:lineSpacingExtra="10pt"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#4d7dff"
+        android:layout_below="@id/education"
+        android:layout_toRightOf="@id/border2"/>
+
+</RelativeLayout>
